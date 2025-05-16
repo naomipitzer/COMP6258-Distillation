@@ -1,0 +1,2103 @@
+[2025-05-12 13:02:02] Using device: mps
+[2025-05-12 13:02:02] Loading dataset from data/tiny-imagenet-200
+→ [DEBUG] About to call get_dataset()
+→ [DEBUG] get_dataset() returned successfully
+[2025-05-12 13:02:25] Generating synthetic images (ipc=10)
+
+[2025-05-12 13:02:26] Starting expert epoch 0 (1/1)
+[2025-05-12 13:02:26] Training student on epoch 0
+→ DEBUG: Testing forward pass manually with images_train[0].unsqueeze(0)...
+→ DEBUG: test_img shape: torch.Size([1, 3, 64, 64]), dtype: torch.float32, device: mps:0
+→ DEBUG: net type: <class 'networks.ConvNet'>
+→ DEBUG: Forward pass successful, output shape: torch.Size([1, 200])
+→ Student 0: Starting 10 epochs of training...
+→ epoch() started in train mode, 125 batches
+    DataLoader yielded batch 0
+    Processing batch 0/125 | Moving data done
+    Processing batch 0/125 | Augmentation done
+    Processing batch 0/125 | Forward pass done
+    Batch 0/125 done | Loss: 5.3850 | Time: 1.82s
+    DataLoader yielded batch 1
+    DataLoader yielded batch 2
+    DataLoader yielded batch 3
+    DataLoader yielded batch 4
+    DataLoader yielded batch 5
+    DataLoader yielded batch 6
+    DataLoader yielded batch 7
+    DataLoader yielded batch 8
+    DataLoader yielded batch 9
+    DataLoader yielded batch 10
+    Processing batch 10/125 | Moving data done
+    Processing batch 10/125 | Augmentation done
+    Processing batch 10/125 | Forward pass done
+    Batch 10/125 done | Loss: 5.2979 | Time: 0.03s
+    DataLoader yielded batch 11
+    DataLoader yielded batch 12
+    DataLoader yielded batch 13
+    DataLoader yielded batch 14
+    DataLoader yielded batch 15
+    DataLoader yielded batch 16
+    DataLoader yielded batch 17
+    DataLoader yielded batch 18
+    DataLoader yielded batch 19
+    DataLoader yielded batch 20
+    Processing batch 20/125 | Moving data done
+    Processing batch 20/125 | Augmentation done
+    Processing batch 20/125 | Forward pass done
+    Batch 20/125 done | Loss: 5.2516 | Time: 0.03s
+    DataLoader yielded batch 21
+    DataLoader yielded batch 22
+    DataLoader yielded batch 23
+    DataLoader yielded batch 24
+    DataLoader yielded batch 25
+    DataLoader yielded batch 26
+    DataLoader yielded batch 27
+    DataLoader yielded batch 28
+    DataLoader yielded batch 29
+    DataLoader yielded batch 30
+    Processing batch 30/125 | Moving data done
+    Processing batch 30/125 | Augmentation done
+    Processing batch 30/125 | Forward pass done
+    Batch 30/125 done | Loss: 5.2159 | Time: 0.02s
+    DataLoader yielded batch 31
+    DataLoader yielded batch 32
+    DataLoader yielded batch 33
+    DataLoader yielded batch 34
+    DataLoader yielded batch 35
+    DataLoader yielded batch 36
+    DataLoader yielded batch 37
+    DataLoader yielded batch 38
+    DataLoader yielded batch 39
+    DataLoader yielded batch 40
+    Processing batch 40/125 | Moving data done
+    Processing batch 40/125 | Augmentation done
+    Processing batch 40/125 | Forward pass done
+    Batch 40/125 done | Loss: 5.2102 | Time: 0.02s
+    DataLoader yielded batch 41
+    DataLoader yielded batch 42
+    DataLoader yielded batch 43
+    DataLoader yielded batch 44
+    DataLoader yielded batch 45
+    DataLoader yielded batch 46
+    DataLoader yielded batch 47
+    DataLoader yielded batch 48
+    DataLoader yielded batch 49
+    DataLoader yielded batch 50
+    Processing batch 50/125 | Moving data done
+    Processing batch 50/125 | Augmentation done
+    Processing batch 50/125 | Forward pass done
+    Batch 50/125 done | Loss: 5.2026 | Time: 0.02s
+    DataLoader yielded batch 51
+    DataLoader yielded batch 52
+    DataLoader yielded batch 53
+    DataLoader yielded batch 54
+    DataLoader yielded batch 55
+    DataLoader yielded batch 56
+    DataLoader yielded batch 57
+    DataLoader yielded batch 58
+    DataLoader yielded batch 59
+    DataLoader yielded batch 60
+    Processing batch 60/125 | Moving data done
+    Processing batch 60/125 | Augmentation done
+    Processing batch 60/125 | Forward pass done
+    Batch 60/125 done | Loss: 5.1451 | Time: 0.03s
+    DataLoader yielded batch 61
+    DataLoader yielded batch 62
+    DataLoader yielded batch 63
+    DataLoader yielded batch 64
+    DataLoader yielded batch 65
+    DataLoader yielded batch 66
+    DataLoader yielded batch 67
+    DataLoader yielded batch 68
+    DataLoader yielded batch 69
+    DataLoader yielded batch 70
+    Processing batch 70/125 | Moving data done
+    Processing batch 70/125 | Augmentation done
+    Processing batch 70/125 | Forward pass done
+    Batch 70/125 done | Loss: 5.1457 | Time: 0.03s
+    DataLoader yielded batch 71
+    DataLoader yielded batch 72
+    DataLoader yielded batch 73
+    DataLoader yielded batch 74
+    DataLoader yielded batch 75
+    DataLoader yielded batch 76
+    DataLoader yielded batch 77
+    DataLoader yielded batch 78
+    DataLoader yielded batch 79
+    DataLoader yielded batch 80
+    Processing batch 80/125 | Moving data done
+    Processing batch 80/125 | Augmentation done
+    Processing batch 80/125 | Forward pass done
+    Batch 80/125 done | Loss: 5.1520 | Time: 0.03s
+    DataLoader yielded batch 81
+    DataLoader yielded batch 82
+    DataLoader yielded batch 83
+    DataLoader yielded batch 84
+    DataLoader yielded batch 85
+    DataLoader yielded batch 86
+    DataLoader yielded batch 87
+    DataLoader yielded batch 88
+    DataLoader yielded batch 89
+    DataLoader yielded batch 90
+    Processing batch 90/125 | Moving data done
+    Processing batch 90/125 | Augmentation done
+    Processing batch 90/125 | Forward pass done
+    Batch 90/125 done | Loss: 5.1053 | Time: 0.02s
+    DataLoader yielded batch 91
+    DataLoader yielded batch 92
+    DataLoader yielded batch 93
+    DataLoader yielded batch 94
+    DataLoader yielded batch 95
+    DataLoader yielded batch 96
+    DataLoader yielded batch 97
+    DataLoader yielded batch 98
+    DataLoader yielded batch 99
+    DataLoader yielded batch 100
+    Processing batch 100/125 | Moving data done
+    Processing batch 100/125 | Augmentation done
+    Processing batch 100/125 | Forward pass done
+    Batch 100/125 done | Loss: 5.1341 | Time: 0.02s
+    DataLoader yielded batch 101
+    DataLoader yielded batch 102
+    DataLoader yielded batch 103
+    DataLoader yielded batch 104
+    DataLoader yielded batch 105
+    DataLoader yielded batch 106
+    DataLoader yielded batch 107
+    DataLoader yielded batch 108
+    DataLoader yielded batch 109
+    DataLoader yielded batch 110
+    Processing batch 110/125 | Moving data done
+    Processing batch 110/125 | Augmentation done
+    Processing batch 110/125 | Forward pass done
+    Batch 110/125 done | Loss: 5.1288 | Time: 0.03s
+    DataLoader yielded batch 111
+    DataLoader yielded batch 112
+    DataLoader yielded batch 113
+    DataLoader yielded batch 114
+    DataLoader yielded batch 115
+    DataLoader yielded batch 116
+    DataLoader yielded batch 117
+    DataLoader yielded batch 118
+    DataLoader yielded batch 119
+    DataLoader yielded batch 120
+    Processing batch 120/125 | Moving data done
+    Processing batch 120/125 | Augmentation done
+    Processing batch 120/125 | Forward pass done
+    Batch 120/125 done | Loss: 4.9931 | Time: 0.03s
+    DataLoader yielded batch 121
+    DataLoader yielded batch 122
+    DataLoader yielded batch 123
+    DataLoader yielded batch 124
+→ epoch() finished | Mode: train | Avg Loss: 5.1696 | Acc: 31.05%
+    [Run 0] Epoch 0/10 | Loss: 5.1696 | Acc: 31.05% | Time: 4.70s
+→ epoch() started in train mode, 125 batches
+    DataLoader yielded batch 0
+    Processing batch 0/125 | Moving data done
+    Processing batch 0/125 | Augmentation done
+    Processing batch 0/125 | Forward pass done
+    Batch 0/125 done | Loss: 4.9789 | Time: 0.02s
+    DataLoader yielded batch 1
+    DataLoader yielded batch 2
+    DataLoader yielded batch 3
+    DataLoader yielded batch 4
+    DataLoader yielded batch 5
+    DataLoader yielded batch 6
+    DataLoader yielded batch 7
+    DataLoader yielded batch 8
+    DataLoader yielded batch 9
+    DataLoader yielded batch 10
+    Processing batch 10/125 | Moving data done
+    Processing batch 10/125 | Augmentation done
+    Processing batch 10/125 | Forward pass done
+    Batch 10/125 done | Loss: 5.1269 | Time: 0.03s
+    DataLoader yielded batch 11
+    DataLoader yielded batch 12
+    DataLoader yielded batch 13
+    DataLoader yielded batch 14
+    DataLoader yielded batch 15
+    DataLoader yielded batch 16
+    DataLoader yielded batch 17
+    DataLoader yielded batch 18
+    DataLoader yielded batch 19
+    DataLoader yielded batch 20
+    Processing batch 20/125 | Moving data done
+    Processing batch 20/125 | Augmentation done
+    Processing batch 20/125 | Forward pass done
+    Batch 20/125 done | Loss: 5.1466 | Time: 0.02s
+    DataLoader yielded batch 21
+    DataLoader yielded batch 22
+    DataLoader yielded batch 23
+    DataLoader yielded batch 24
+    DataLoader yielded batch 25
+    DataLoader yielded batch 26
+    DataLoader yielded batch 27
+    DataLoader yielded batch 28
+    DataLoader yielded batch 29
+    DataLoader yielded batch 30
+    Processing batch 30/125 | Moving data done
+    Processing batch 30/125 | Augmentation done
+    Processing batch 30/125 | Forward pass done
+    Batch 30/125 done | Loss: 5.1194 | Time: 0.03s
+    DataLoader yielded batch 31
+    DataLoader yielded batch 32
+    DataLoader yielded batch 33
+    DataLoader yielded batch 34
+    DataLoader yielded batch 35
+    DataLoader yielded batch 36
+    DataLoader yielded batch 37
+    DataLoader yielded batch 38
+    DataLoader yielded batch 39
+    DataLoader yielded batch 40
+    Processing batch 40/125 | Moving data done
+    Processing batch 40/125 | Augmentation done
+    Processing batch 40/125 | Forward pass done
+    Batch 40/125 done | Loss: 5.1590 | Time: 0.02s
+    DataLoader yielded batch 41
+    DataLoader yielded batch 42
+    DataLoader yielded batch 43
+    DataLoader yielded batch 44
+    DataLoader yielded batch 45
+    DataLoader yielded batch 46
+    DataLoader yielded batch 47
+    DataLoader yielded batch 48
+    DataLoader yielded batch 49
+    DataLoader yielded batch 50
+    Processing batch 50/125 | Moving data done
+    Processing batch 50/125 | Augmentation done
+    Processing batch 50/125 | Forward pass done
+    Batch 50/125 done | Loss: 5.1587 | Time: 0.02s
+    DataLoader yielded batch 51
+    DataLoader yielded batch 52
+    DataLoader yielded batch 53
+    DataLoader yielded batch 54
+    DataLoader yielded batch 55
+    DataLoader yielded batch 56
+    DataLoader yielded batch 57
+    DataLoader yielded batch 58
+    DataLoader yielded batch 59
+    DataLoader yielded batch 60
+    Processing batch 60/125 | Moving data done
+    Processing batch 60/125 | Augmentation done
+    Processing batch 60/125 | Forward pass done
+    Batch 60/125 done | Loss: 5.1101 | Time: 0.02s
+    DataLoader yielded batch 61
+    DataLoader yielded batch 62
+    DataLoader yielded batch 63
+    DataLoader yielded batch 64
+    DataLoader yielded batch 65
+    DataLoader yielded batch 66
+    DataLoader yielded batch 67
+    DataLoader yielded batch 68
+    DataLoader yielded batch 69
+    DataLoader yielded batch 70
+    Processing batch 70/125 | Moving data done
+    Processing batch 70/125 | Augmentation done
+    Processing batch 70/125 | Forward pass done
+    Batch 70/125 done | Loss: 5.1205 | Time: 0.02s
+    DataLoader yielded batch 71
+    DataLoader yielded batch 72
+    DataLoader yielded batch 73
+    DataLoader yielded batch 74
+    DataLoader yielded batch 75
+    DataLoader yielded batch 76
+    DataLoader yielded batch 77
+    DataLoader yielded batch 78
+    DataLoader yielded batch 79
+    DataLoader yielded batch 80
+    Processing batch 80/125 | Moving data done
+    Processing batch 80/125 | Augmentation done
+    Processing batch 80/125 | Forward pass done
+    Batch 80/125 done | Loss: 5.1300 | Time: 0.02s
+    DataLoader yielded batch 81
+    DataLoader yielded batch 82
+    DataLoader yielded batch 83
+    DataLoader yielded batch 84
+    DataLoader yielded batch 85
+    DataLoader yielded batch 86
+    DataLoader yielded batch 87
+    DataLoader yielded batch 88
+    DataLoader yielded batch 89
+    DataLoader yielded batch 90
+    Processing batch 90/125 | Moving data done
+    Processing batch 90/125 | Augmentation done
+    Processing batch 90/125 | Forward pass done
+    Batch 90/125 done | Loss: 5.0799 | Time: 0.02s
+    DataLoader yielded batch 91
+    DataLoader yielded batch 92
+    DataLoader yielded batch 93
+    DataLoader yielded batch 94
+    DataLoader yielded batch 95
+    DataLoader yielded batch 96
+    DataLoader yielded batch 97
+    DataLoader yielded batch 98
+    DataLoader yielded batch 99
+    DataLoader yielded batch 100
+    Processing batch 100/125 | Moving data done
+    Processing batch 100/125 | Augmentation done
+    Processing batch 100/125 | Forward pass done
+    Batch 100/125 done | Loss: 5.1177 | Time: 0.03s
+    DataLoader yielded batch 101
+    DataLoader yielded batch 102
+    DataLoader yielded batch 103
+    DataLoader yielded batch 104
+    DataLoader yielded batch 105
+    DataLoader yielded batch 106
+    DataLoader yielded batch 107
+    DataLoader yielded batch 108
+    DataLoader yielded batch 109
+    DataLoader yielded batch 110
+    Processing batch 110/125 | Moving data done
+    Processing batch 110/125 | Augmentation done
+    Processing batch 110/125 | Forward pass done
+    Batch 110/125 done | Loss: 5.1145 | Time: 0.03s
+    DataLoader yielded batch 111
+    DataLoader yielded batch 112
+    DataLoader yielded batch 113
+    DataLoader yielded batch 114
+    DataLoader yielded batch 115
+    DataLoader yielded batch 116
+    DataLoader yielded batch 117
+    DataLoader yielded batch 118
+    DataLoader yielded batch 119
+    DataLoader yielded batch 120
+    Processing batch 120/125 | Moving data done
+    Processing batch 120/125 | Augmentation done
+    Processing batch 120/125 | Forward pass done
+    Batch 120/125 done | Loss: 4.9748 | Time: 0.03s
+    DataLoader yielded batch 121
+    DataLoader yielded batch 122
+    DataLoader yielded batch 123
+    DataLoader yielded batch 124
+→ epoch() finished | Mode: train | Avg Loss: 5.1024 | Acc: 53.65%
+→ epoch() started in train mode, 125 batches
+    DataLoader yielded batch 0
+    Processing batch 0/125 | Moving data done
+    Processing batch 0/125 | Augmentation done
+    Processing batch 0/125 | Forward pass done
+    Batch 0/125 done | Loss: 4.9629 | Time: 0.03s
+    DataLoader yielded batch 1
+    DataLoader yielded batch 2
+    DataLoader yielded batch 3
+    DataLoader yielded batch 4
+    DataLoader yielded batch 5
+    DataLoader yielded batch 6
+    DataLoader yielded batch 7
+    DataLoader yielded batch 8
+    DataLoader yielded batch 9
+    DataLoader yielded batch 10
+    Processing batch 10/125 | Moving data done
+    Processing batch 10/125 | Augmentation done
+    Processing batch 10/125 | Forward pass done
+    Batch 10/125 done | Loss: 5.1132 | Time: 0.02s
+    DataLoader yielded batch 11
+    DataLoader yielded batch 12
+    DataLoader yielded batch 13
+    DataLoader yielded batch 14
+    DataLoader yielded batch 15
+    DataLoader yielded batch 16
+    DataLoader yielded batch 17
+    DataLoader yielded batch 18
+    DataLoader yielded batch 19
+    DataLoader yielded batch 20
+    Processing batch 20/125 | Moving data done
+    Processing batch 20/125 | Augmentation done
+    Processing batch 20/125 | Forward pass done
+    Batch 20/125 done | Loss: 5.1360 | Time: 0.03s
+    DataLoader yielded batch 21
+    DataLoader yielded batch 22
+    DataLoader yielded batch 23
+    DataLoader yielded batch 24
+    DataLoader yielded batch 25
+    DataLoader yielded batch 26
+    DataLoader yielded batch 27
+    DataLoader yielded batch 28
+    DataLoader yielded batch 29
+    DataLoader yielded batch 30
+    Processing batch 30/125 | Moving data done
+    Processing batch 30/125 | Augmentation done
+    Processing batch 30/125 | Forward pass done
+    Batch 30/125 done | Loss: 5.1105 | Time: 0.02s
+    DataLoader yielded batch 31
+    DataLoader yielded batch 32
+    DataLoader yielded batch 33
+    DataLoader yielded batch 34
+    DataLoader yielded batch 35
+    DataLoader yielded batch 36
+    DataLoader yielded batch 37
+    DataLoader yielded batch 38
+    DataLoader yielded batch 39
+    DataLoader yielded batch 40
+    Processing batch 40/125 | Moving data done
+    Processing batch 40/125 | Augmentation done
+    Processing batch 40/125 | Forward pass done
+    Batch 40/125 done | Loss: 5.1510 | Time: 0.02s
+    DataLoader yielded batch 41
+    DataLoader yielded batch 42
+    DataLoader yielded batch 43
+    DataLoader yielded batch 44
+    DataLoader yielded batch 45
+    DataLoader yielded batch 46
+    DataLoader yielded batch 47
+    DataLoader yielded batch 48
+    DataLoader yielded batch 49
+    DataLoader yielded batch 50
+    Processing batch 50/125 | Moving data done
+    Processing batch 50/125 | Augmentation done
+    Processing batch 50/125 | Forward pass done
+    Batch 50/125 done | Loss: 5.1514 | Time: 0.02s
+    DataLoader yielded batch 51
+    DataLoader yielded batch 52
+    DataLoader yielded batch 53
+    DataLoader yielded batch 54
+    DataLoader yielded batch 55
+    DataLoader yielded batch 56
+    DataLoader yielded batch 57
+    DataLoader yielded batch 58
+    DataLoader yielded batch 59
+    DataLoader yielded batch 60
+    Processing batch 60/125 | Moving data done
+    Processing batch 60/125 | Augmentation done
+    Processing batch 60/125 | Forward pass done
+    Batch 60/125 done | Loss: 5.1016 | Time: 0.02s
+    DataLoader yielded batch 61
+    DataLoader yielded batch 62
+    DataLoader yielded batch 63
+    DataLoader yielded batch 64
+    DataLoader yielded batch 65
+    DataLoader yielded batch 66
+    DataLoader yielded batch 67
+    DataLoader yielded batch 68
+    DataLoader yielded batch 69
+    DataLoader yielded batch 70
+    Processing batch 70/125 | Moving data done
+    Processing batch 70/125 | Augmentation done
+    Processing batch 70/125 | Forward pass done
+    Batch 70/125 done | Loss: 5.1129 | Time: 0.03s
+    DataLoader yielded batch 71
+    DataLoader yielded batch 72
+    DataLoader yielded batch 73
+    DataLoader yielded batch 74
+    DataLoader yielded batch 75
+    DataLoader yielded batch 76
+    DataLoader yielded batch 77
+    DataLoader yielded batch 78
+    DataLoader yielded batch 79
+    DataLoader yielded batch 80
+    Processing batch 80/125 | Moving data done
+    Processing batch 80/125 | Augmentation done
+    Processing batch 80/125 | Forward pass done
+    Batch 80/125 done | Loss: 5.1234 | Time: 0.02s
+    DataLoader yielded batch 81
+    DataLoader yielded batch 82
+    DataLoader yielded batch 83
+    DataLoader yielded batch 84
+    DataLoader yielded batch 85
+    DataLoader yielded batch 86
+    DataLoader yielded batch 87
+    DataLoader yielded batch 88
+    DataLoader yielded batch 89
+    DataLoader yielded batch 90
+    Processing batch 90/125 | Moving data done
+    Processing batch 90/125 | Augmentation done
+    Processing batch 90/125 | Forward pass done
+    Batch 90/125 done | Loss: 5.0731 | Time: 0.02s
+    DataLoader yielded batch 91
+    DataLoader yielded batch 92
+    DataLoader yielded batch 93
+    DataLoader yielded batch 94
+    DataLoader yielded batch 95
+    DataLoader yielded batch 96
+    DataLoader yielded batch 97
+    DataLoader yielded batch 98
+    DataLoader yielded batch 99
+    DataLoader yielded batch 100
+    Processing batch 100/125 | Moving data done
+    Processing batch 100/125 | Augmentation done
+    Processing batch 100/125 | Forward pass done
+    Batch 100/125 done | Loss: 5.1120 | Time: 0.03s
+    DataLoader yielded batch 101
+    DataLoader yielded batch 102
+    DataLoader yielded batch 103
+    DataLoader yielded batch 104
+    DataLoader yielded batch 105
+    DataLoader yielded batch 106
+    DataLoader yielded batch 107
+    DataLoader yielded batch 108
+    DataLoader yielded batch 109
+    DataLoader yielded batch 110
+    Processing batch 110/125 | Moving data done
+    Processing batch 110/125 | Augmentation done
+    Processing batch 110/125 | Forward pass done
+    Batch 110/125 done | Loss: 5.1093 | Time: 0.03s
+    DataLoader yielded batch 111
+    DataLoader yielded batch 112
+    DataLoader yielded batch 113
+    DataLoader yielded batch 114
+    DataLoader yielded batch 115
+    DataLoader yielded batch 116
+    DataLoader yielded batch 117
+    DataLoader yielded batch 118
+    DataLoader yielded batch 119
+    DataLoader yielded batch 120
+    Processing batch 120/125 | Moving data done
+    Processing batch 120/125 | Augmentation done
+    Processing batch 120/125 | Forward pass done
+    Batch 120/125 done | Loss: 4.9704 | Time: 0.03s
+    DataLoader yielded batch 121
+    DataLoader yielded batch 122
+    DataLoader yielded batch 123
+    DataLoader yielded batch 124
+→ epoch() finished | Mode: train | Avg Loss: 5.0945 | Acc: 61.85%
+→ epoch() started in train mode, 125 batches
+    DataLoader yielded batch 0
+    Processing batch 0/125 | Moving data done
+    Processing batch 0/125 | Augmentation done
+    Processing batch 0/125 | Forward pass done
+    Batch 0/125 done | Loss: 4.9602 | Time: 0.03s
+    DataLoader yielded batch 1
+    DataLoader yielded batch 2
+    DataLoader yielded batch 3
+    DataLoader yielded batch 4
+    DataLoader yielded batch 5
+    DataLoader yielded batch 6
+    DataLoader yielded batch 7
+    DataLoader yielded batch 8
+    DataLoader yielded batch 9
+    DataLoader yielded batch 10
+    Processing batch 10/125 | Moving data done
+    Processing batch 10/125 | Augmentation done
+    Processing batch 10/125 | Forward pass done
+    Batch 10/125 done | Loss: 5.1114 | Time: 0.02s
+    DataLoader yielded batch 11
+    DataLoader yielded batch 12
+    DataLoader yielded batch 13
+    DataLoader yielded batch 14
+    DataLoader yielded batch 15
+    DataLoader yielded batch 16
+    DataLoader yielded batch 17
+    DataLoader yielded batch 18
+    DataLoader yielded batch 19
+    DataLoader yielded batch 20
+    Processing batch 20/125 | Moving data done
+    Processing batch 20/125 | Augmentation done
+    Processing batch 20/125 | Forward pass done
+    Batch 20/125 done | Loss: 5.1339 | Time: 0.02s
+    DataLoader yielded batch 21
+    DataLoader yielded batch 22
+    DataLoader yielded batch 23
+    DataLoader yielded batch 24
+    DataLoader yielded batch 25
+    DataLoader yielded batch 26
+    DataLoader yielded batch 27
+    DataLoader yielded batch 28
+    DataLoader yielded batch 29
+    DataLoader yielded batch 30
+    Processing batch 30/125 | Moving data done
+    Processing batch 30/125 | Augmentation done
+    Processing batch 30/125 | Forward pass done
+    Batch 30/125 done | Loss: 5.1087 | Time: 0.03s
+    DataLoader yielded batch 31
+    DataLoader yielded batch 32
+    DataLoader yielded batch 33
+    DataLoader yielded batch 34
+    DataLoader yielded batch 35
+    DataLoader yielded batch 36
+    DataLoader yielded batch 37
+    DataLoader yielded batch 38
+    DataLoader yielded batch 39
+    DataLoader yielded batch 40
+    Processing batch 40/125 | Moving data done
+    Processing batch 40/125 | Augmentation done
+    Processing batch 40/125 | Forward pass done
+    Batch 40/125 done | Loss: 5.1494 | Time: 0.02s
+    DataLoader yielded batch 41
+    DataLoader yielded batch 42
+    DataLoader yielded batch 43
+    DataLoader yielded batch 44
+    DataLoader yielded batch 45
+    DataLoader yielded batch 46
+    DataLoader yielded batch 47
+    DataLoader yielded batch 48
+    DataLoader yielded batch 49
+    DataLoader yielded batch 50
+    Processing batch 50/125 | Moving data done
+    Processing batch 50/125 | Augmentation done
+    Processing batch 50/125 | Forward pass done
+    Batch 50/125 done | Loss: 5.1498 | Time: 0.02s
+    DataLoader yielded batch 51
+    DataLoader yielded batch 52
+    DataLoader yielded batch 53
+    DataLoader yielded batch 54
+    DataLoader yielded batch 55
+    DataLoader yielded batch 56
+    DataLoader yielded batch 57
+    DataLoader yielded batch 58
+    DataLoader yielded batch 59
+    DataLoader yielded batch 60
+    Processing batch 60/125 | Moving data done
+    Processing batch 60/125 | Augmentation done
+    Processing batch 60/125 | Forward pass done
+    Batch 60/125 done | Loss: 5.1000 | Time: 0.03s
+    DataLoader yielded batch 61
+    DataLoader yielded batch 62
+    DataLoader yielded batch 63
+    DataLoader yielded batch 64
+    DataLoader yielded batch 65
+    DataLoader yielded batch 66
+    DataLoader yielded batch 67
+    DataLoader yielded batch 68
+    DataLoader yielded batch 69
+    DataLoader yielded batch 70
+    Processing batch 70/125 | Moving data done
+    Processing batch 70/125 | Augmentation done
+    Processing batch 70/125 | Forward pass done
+    Batch 70/125 done | Loss: 5.1115 | Time: 0.03s
+    DataLoader yielded batch 71
+    DataLoader yielded batch 72
+    DataLoader yielded batch 73
+    DataLoader yielded batch 74
+    DataLoader yielded batch 75
+    DataLoader yielded batch 76
+    DataLoader yielded batch 77
+    DataLoader yielded batch 78
+    DataLoader yielded batch 79
+    DataLoader yielded batch 80
+    Processing batch 80/125 | Moving data done
+    Processing batch 80/125 | Augmentation done
+    Processing batch 80/125 | Forward pass done
+    Batch 80/125 done | Loss: 5.1221 | Time: 0.03s
+    DataLoader yielded batch 81
+    DataLoader yielded batch 82
+    DataLoader yielded batch 83
+    DataLoader yielded batch 84
+    DataLoader yielded batch 85
+    DataLoader yielded batch 86
+    DataLoader yielded batch 87
+    DataLoader yielded batch 88
+    DataLoader yielded batch 89
+    DataLoader yielded batch 90
+    Processing batch 90/125 | Moving data done
+    Processing batch 90/125 | Augmentation done
+    Processing batch 90/125 | Forward pass done
+    Batch 90/125 done | Loss: 5.0720 | Time: 0.02s
+    DataLoader yielded batch 91
+    DataLoader yielded batch 92
+    DataLoader yielded batch 93
+    DataLoader yielded batch 94
+    DataLoader yielded batch 95
+    DataLoader yielded batch 96
+    DataLoader yielded batch 97
+    DataLoader yielded batch 98
+    DataLoader yielded batch 99
+    DataLoader yielded batch 100
+    Processing batch 100/125 | Moving data done
+    Processing batch 100/125 | Augmentation done
+    Processing batch 100/125 | Forward pass done
+    Batch 100/125 done | Loss: 5.1106 | Time: 0.02s
+    DataLoader yielded batch 101
+    DataLoader yielded batch 102
+    DataLoader yielded batch 103
+    DataLoader yielded batch 104
+    DataLoader yielded batch 105
+    DataLoader yielded batch 106
+    DataLoader yielded batch 107
+    DataLoader yielded batch 108
+    DataLoader yielded batch 109
+    DataLoader yielded batch 110
+    Processing batch 110/125 | Moving data done
+    Processing batch 110/125 | Augmentation done
+    Processing batch 110/125 | Forward pass done
+    Batch 110/125 done | Loss: 5.1079 | Time: 0.03s
+    DataLoader yielded batch 111
+    DataLoader yielded batch 112
+    DataLoader yielded batch 113
+    DataLoader yielded batch 114
+    DataLoader yielded batch 115
+    DataLoader yielded batch 116
+    DataLoader yielded batch 117
+    DataLoader yielded batch 118
+    DataLoader yielded batch 119
+    DataLoader yielded batch 120
+    Processing batch 120/125 | Moving data done
+    Processing batch 120/125 | Augmentation done
+    Processing batch 120/125 | Forward pass done
+    Batch 120/125 done | Loss: 4.9692 | Time: 0.03s
+    DataLoader yielded batch 121
+    DataLoader yielded batch 122
+    DataLoader yielded batch 123
+    DataLoader yielded batch 124
+→ epoch() finished | Mode: train | Avg Loss: 5.0928 | Acc: 63.25%
+→ epoch() started in train mode, 125 batches
+    DataLoader yielded batch 0
+    Processing batch 0/125 | Moving data done
+    Processing batch 0/125 | Augmentation done
+    Processing batch 0/125 | Forward pass done
+    Batch 0/125 done | Loss: 4.9585 | Time: 0.03s
+    DataLoader yielded batch 1
+    DataLoader yielded batch 2
+    DataLoader yielded batch 3
+    DataLoader yielded batch 4
+    DataLoader yielded batch 5
+    DataLoader yielded batch 6
+    DataLoader yielded batch 7
+    DataLoader yielded batch 8
+    DataLoader yielded batch 9
+    DataLoader yielded batch 10
+    Processing batch 10/125 | Moving data done
+    Processing batch 10/125 | Augmentation done
+    Processing batch 10/125 | Forward pass done
+    Batch 10/125 done | Loss: 5.1102 | Time: 0.03s
+    DataLoader yielded batch 11
+    DataLoader yielded batch 12
+    DataLoader yielded batch 13
+    DataLoader yielded batch 14
+    DataLoader yielded batch 15
+    DataLoader yielded batch 16
+    DataLoader yielded batch 17
+    DataLoader yielded batch 18
+    DataLoader yielded batch 19
+    DataLoader yielded batch 20
+    Processing batch 20/125 | Moving data done
+    Processing batch 20/125 | Augmentation done
+    Processing batch 20/125 | Forward pass done
+    Batch 20/125 done | Loss: 5.1327 | Time: 0.02s
+    DataLoader yielded batch 21
+    DataLoader yielded batch 22
+    DataLoader yielded batch 23
+    DataLoader yielded batch 24
+    DataLoader yielded batch 25
+    DataLoader yielded batch 26
+    DataLoader yielded batch 27
+    DataLoader yielded batch 28
+    DataLoader yielded batch 29
+    DataLoader yielded batch 30
+    Processing batch 30/125 | Moving data done
+    Processing batch 30/125 | Augmentation done
+    Processing batch 30/125 | Forward pass done
+    Batch 30/125 done | Loss: 5.1073 | Time: 0.03s
+    DataLoader yielded batch 31
+    DataLoader yielded batch 32
+    DataLoader yielded batch 33
+    DataLoader yielded batch 34
+    DataLoader yielded batch 35
+    DataLoader yielded batch 36
+    DataLoader yielded batch 37
+    DataLoader yielded batch 38
+    DataLoader yielded batch 39
+    DataLoader yielded batch 40
+    Processing batch 40/125 | Moving data done
+    Processing batch 40/125 | Augmentation done
+    Processing batch 40/125 | Forward pass done
+    Batch 40/125 done | Loss: 5.1480 | Time: 0.02s
+    DataLoader yielded batch 41
+    DataLoader yielded batch 42
+    DataLoader yielded batch 43
+    DataLoader yielded batch 44
+    DataLoader yielded batch 45
+    DataLoader yielded batch 46
+    DataLoader yielded batch 47
+    DataLoader yielded batch 48
+    DataLoader yielded batch 49
+    DataLoader yielded batch 50
+    Processing batch 50/125 | Moving data done
+    Processing batch 50/125 | Augmentation done
+    Processing batch 50/125 | Forward pass done
+    Batch 50/125 done | Loss: 5.1486 | Time: 0.03s
+    DataLoader yielded batch 51
+    DataLoader yielded batch 52
+    DataLoader yielded batch 53
+    DataLoader yielded batch 54
+    DataLoader yielded batch 55
+    DataLoader yielded batch 56
+    DataLoader yielded batch 57
+    DataLoader yielded batch 58
+    DataLoader yielded batch 59
+    DataLoader yielded batch 60
+    Processing batch 60/125 | Moving data done
+    Processing batch 60/125 | Augmentation done
+    Processing batch 60/125 | Forward pass done
+    Batch 60/125 done | Loss: 5.0986 | Time: 0.03s
+    DataLoader yielded batch 61
+    DataLoader yielded batch 62
+    DataLoader yielded batch 63
+    DataLoader yielded batch 64
+    DataLoader yielded batch 65
+    DataLoader yielded batch 66
+    DataLoader yielded batch 67
+    DataLoader yielded batch 68
+    DataLoader yielded batch 69
+    DataLoader yielded batch 70
+    Processing batch 70/125 | Moving data done
+    Processing batch 70/125 | Augmentation done
+    Processing batch 70/125 | Forward pass done
+    Batch 70/125 done | Loss: 5.1101 | Time: 0.02s
+    DataLoader yielded batch 71
+    DataLoader yielded batch 72
+    DataLoader yielded batch 73
+    DataLoader yielded batch 74
+    DataLoader yielded batch 75
+    DataLoader yielded batch 76
+    DataLoader yielded batch 77
+    DataLoader yielded batch 78
+    DataLoader yielded batch 79
+    DataLoader yielded batch 80
+    Processing batch 80/125 | Moving data done
+    Processing batch 80/125 | Augmentation done
+    Processing batch 80/125 | Forward pass done
+    Batch 80/125 done | Loss: 5.1206 | Time: 0.02s
+    DataLoader yielded batch 81
+    DataLoader yielded batch 82
+    DataLoader yielded batch 83
+    DataLoader yielded batch 84
+    DataLoader yielded batch 85
+    DataLoader yielded batch 86
+    DataLoader yielded batch 87
+    DataLoader yielded batch 88
+    DataLoader yielded batch 89
+    DataLoader yielded batch 90
+    Processing batch 90/125 | Moving data done
+    Processing batch 90/125 | Augmentation done
+    Processing batch 90/125 | Forward pass done
+    Batch 90/125 done | Loss: 5.0711 | Time: 0.02s
+    DataLoader yielded batch 91
+    DataLoader yielded batch 92
+    DataLoader yielded batch 93
+    DataLoader yielded batch 94
+    DataLoader yielded batch 95
+    DataLoader yielded batch 96
+    DataLoader yielded batch 97
+    DataLoader yielded batch 98
+    DataLoader yielded batch 99
+    DataLoader yielded batch 100
+    Processing batch 100/125 | Moving data done
+    Processing batch 100/125 | Augmentation done
+    Processing batch 100/125 | Forward pass done
+    Batch 100/125 done | Loss: 5.1095 | Time: 0.03s
+    DataLoader yielded batch 101
+    DataLoader yielded batch 102
+    DataLoader yielded batch 103
+    DataLoader yielded batch 104
+    DataLoader yielded batch 105
+    DataLoader yielded batch 106
+    DataLoader yielded batch 107
+    DataLoader yielded batch 108
+    DataLoader yielded batch 109
+    DataLoader yielded batch 110
+    Processing batch 110/125 | Moving data done
+    Processing batch 110/125 | Augmentation done
+    Processing batch 110/125 | Forward pass done
+    Batch 110/125 done | Loss: 5.1067 | Time: 0.03s
+    DataLoader yielded batch 111
+    DataLoader yielded batch 112
+    DataLoader yielded batch 113
+    DataLoader yielded batch 114
+    DataLoader yielded batch 115
+    DataLoader yielded batch 116
+    DataLoader yielded batch 117
+    DataLoader yielded batch 118
+    DataLoader yielded batch 119
+    DataLoader yielded batch 120
+    Processing batch 120/125 | Moving data done
+    Processing batch 120/125 | Augmentation done
+    Processing batch 120/125 | Forward pass done
+    Batch 120/125 done | Loss: 4.9689 | Time: 0.02s
+    DataLoader yielded batch 121
+    DataLoader yielded batch 122
+    DataLoader yielded batch 123
+    DataLoader yielded batch 124
+→ epoch() finished | Mode: train | Avg Loss: 5.0915 | Acc: 65.40%
+→ epoch() started in train mode, 125 batches
+    DataLoader yielded batch 0
+    Processing batch 0/125 | Moving data done
+    Processing batch 0/125 | Augmentation done
+    Processing batch 0/125 | Forward pass done
+    Batch 0/125 done | Loss: 4.9578 | Time: 0.03s
+    DataLoader yielded batch 1
+    DataLoader yielded batch 2
+    DataLoader yielded batch 3
+    DataLoader yielded batch 4
+    DataLoader yielded batch 5
+    DataLoader yielded batch 6
+    DataLoader yielded batch 7
+    DataLoader yielded batch 8
+    DataLoader yielded batch 9
+    DataLoader yielded batch 10
+    Processing batch 10/125 | Moving data done
+    Processing batch 10/125 | Augmentation done
+    Processing batch 10/125 | Forward pass done
+    Batch 10/125 done | Loss: 5.1094 | Time: 0.03s
+    DataLoader yielded batch 11
+    DataLoader yielded batch 12
+    DataLoader yielded batch 13
+    DataLoader yielded batch 14
+    DataLoader yielded batch 15
+    DataLoader yielded batch 16
+    DataLoader yielded batch 17
+    DataLoader yielded batch 18
+    DataLoader yielded batch 19
+    DataLoader yielded batch 20
+    Processing batch 20/125 | Moving data done
+    Processing batch 20/125 | Augmentation done
+    Processing batch 20/125 | Forward pass done
+    Batch 20/125 done | Loss: 5.1321 | Time: 0.03s
+    DataLoader yielded batch 21
+    DataLoader yielded batch 22
+    DataLoader yielded batch 23
+    DataLoader yielded batch 24
+    DataLoader yielded batch 25
+    DataLoader yielded batch 26
+    DataLoader yielded batch 27
+    DataLoader yielded batch 28
+    DataLoader yielded batch 29
+    DataLoader yielded batch 30
+    Processing batch 30/125 | Moving data done
+    Processing batch 30/125 | Augmentation done
+    Processing batch 30/125 | Forward pass done
+    Batch 30/125 done | Loss: 5.1069 | Time: 0.03s
+    DataLoader yielded batch 31
+    DataLoader yielded batch 32
+    DataLoader yielded batch 33
+    DataLoader yielded batch 34
+    DataLoader yielded batch 35
+    DataLoader yielded batch 36
+    DataLoader yielded batch 37
+    DataLoader yielded batch 38
+    DataLoader yielded batch 39
+    DataLoader yielded batch 40
+    Processing batch 40/125 | Moving data done
+    Processing batch 40/125 | Augmentation done
+    Processing batch 40/125 | Forward pass done
+    Batch 40/125 done | Loss: 5.1476 | Time: 0.03s
+    DataLoader yielded batch 41
+    DataLoader yielded batch 42
+    DataLoader yielded batch 43
+    DataLoader yielded batch 44
+    DataLoader yielded batch 45
+    DataLoader yielded batch 46
+    DataLoader yielded batch 47
+    DataLoader yielded batch 48
+    DataLoader yielded batch 49
+    DataLoader yielded batch 50
+    Processing batch 50/125 | Moving data done
+    Processing batch 50/125 | Augmentation done
+    Processing batch 50/125 | Forward pass done
+    Batch 50/125 done | Loss: 5.1482 | Time: 0.03s
+    DataLoader yielded batch 51
+    DataLoader yielded batch 52
+    DataLoader yielded batch 53
+    DataLoader yielded batch 54
+    DataLoader yielded batch 55
+    DataLoader yielded batch 56
+    DataLoader yielded batch 57
+    DataLoader yielded batch 58
+    DataLoader yielded batch 59
+    DataLoader yielded batch 60
+    Processing batch 60/125 | Moving data done
+    Processing batch 60/125 | Augmentation done
+    Processing batch 60/125 | Forward pass done
+    Batch 60/125 done | Loss: 5.0982 | Time: 0.03s
+    DataLoader yielded batch 61
+    DataLoader yielded batch 62
+    DataLoader yielded batch 63
+    DataLoader yielded batch 64
+    DataLoader yielded batch 65
+    DataLoader yielded batch 66
+    DataLoader yielded batch 67
+    DataLoader yielded batch 68
+    DataLoader yielded batch 69
+    DataLoader yielded batch 70
+    Processing batch 70/125 | Moving data done
+    Processing batch 70/125 | Augmentation done
+    Processing batch 70/125 | Forward pass done
+    Batch 70/125 done | Loss: 5.1098 | Time: 0.02s
+    DataLoader yielded batch 71
+    DataLoader yielded batch 72
+    DataLoader yielded batch 73
+    DataLoader yielded batch 74
+    DataLoader yielded batch 75
+    DataLoader yielded batch 76
+    DataLoader yielded batch 77
+    DataLoader yielded batch 78
+    DataLoader yielded batch 79
+    DataLoader yielded batch 80
+    Processing batch 80/125 | Moving data done
+    Processing batch 80/125 | Augmentation done
+    Processing batch 80/125 | Forward pass done
+    Batch 80/125 done | Loss: 5.1203 | Time: 0.03s
+    DataLoader yielded batch 81
+    DataLoader yielded batch 82
+    DataLoader yielded batch 83
+    DataLoader yielded batch 84
+    DataLoader yielded batch 85
+    DataLoader yielded batch 86
+    DataLoader yielded batch 87
+    DataLoader yielded batch 88
+    DataLoader yielded batch 89
+    DataLoader yielded batch 90
+    Processing batch 90/125 | Moving data done
+    Processing batch 90/125 | Augmentation done
+    Processing batch 90/125 | Forward pass done
+    Batch 90/125 done | Loss: 5.0709 | Time: 0.03s
+    DataLoader yielded batch 91
+    DataLoader yielded batch 92
+    DataLoader yielded batch 93
+    DataLoader yielded batch 94
+    DataLoader yielded batch 95
+    DataLoader yielded batch 96
+    DataLoader yielded batch 97
+    DataLoader yielded batch 98
+    DataLoader yielded batch 99
+    DataLoader yielded batch 100
+    Processing batch 100/125 | Moving data done
+    Processing batch 100/125 | Augmentation done
+    Processing batch 100/125 | Forward pass done
+    Batch 100/125 done | Loss: 5.1092 | Time: 0.02s
+    DataLoader yielded batch 101
+    DataLoader yielded batch 102
+    DataLoader yielded batch 103
+    DataLoader yielded batch 104
+    DataLoader yielded batch 105
+    DataLoader yielded batch 106
+    DataLoader yielded batch 107
+    DataLoader yielded batch 108
+    DataLoader yielded batch 109
+    DataLoader yielded batch 110
+    Processing batch 110/125 | Moving data done
+    Processing batch 110/125 | Augmentation done
+    Processing batch 110/125 | Forward pass done
+    Batch 110/125 done | Loss: 5.1064 | Time: 0.03s
+    DataLoader yielded batch 111
+    DataLoader yielded batch 112
+    DataLoader yielded batch 113
+    DataLoader yielded batch 114
+    DataLoader yielded batch 115
+    DataLoader yielded batch 116
+    DataLoader yielded batch 117
+    DataLoader yielded batch 118
+    DataLoader yielded batch 119
+    DataLoader yielded batch 120
+    Processing batch 120/125 | Moving data done
+    Processing batch 120/125 | Augmentation done
+    Processing batch 120/125 | Forward pass done
+    Batch 120/125 done | Loss: 4.9686 | Time: 0.03s
+    DataLoader yielded batch 121
+    DataLoader yielded batch 122
+    DataLoader yielded batch 123
+    DataLoader yielded batch 124
+→ epoch() finished | Mode: train | Avg Loss: 5.0911 | Acc: 65.40%
+→ epoch() started in train mode, 125 batches
+    DataLoader yielded batch 0
+    Processing batch 0/125 | Moving data done
+    Processing batch 0/125 | Augmentation done
+    Processing batch 0/125 | Forward pass done
+    Batch 0/125 done | Loss: 4.9574 | Time: 0.03s
+    DataLoader yielded batch 1
+    DataLoader yielded batch 2
+    DataLoader yielded batch 3
+    DataLoader yielded batch 4
+    DataLoader yielded batch 5
+    DataLoader yielded batch 6
+    DataLoader yielded batch 7
+    DataLoader yielded batch 8
+    DataLoader yielded batch 9
+    DataLoader yielded batch 10
+    Processing batch 10/125 | Moving data done
+    Processing batch 10/125 | Augmentation done
+    Processing batch 10/125 | Forward pass done
+    Batch 10/125 done | Loss: 5.1090 | Time: 0.03s
+    DataLoader yielded batch 11
+    DataLoader yielded batch 12
+    DataLoader yielded batch 13
+    DataLoader yielded batch 14
+    DataLoader yielded batch 15
+    DataLoader yielded batch 16
+    DataLoader yielded batch 17
+    DataLoader yielded batch 18
+    DataLoader yielded batch 19
+    DataLoader yielded batch 20
+    Processing batch 20/125 | Moving data done
+    Processing batch 20/125 | Augmentation done
+    Processing batch 20/125 | Forward pass done
+    Batch 20/125 done | Loss: 5.1317 | Time: 0.03s
+    DataLoader yielded batch 21
+    DataLoader yielded batch 22
+    DataLoader yielded batch 23
+    DataLoader yielded batch 24
+    DataLoader yielded batch 25
+    DataLoader yielded batch 26
+    DataLoader yielded batch 27
+    DataLoader yielded batch 28
+    DataLoader yielded batch 29
+    DataLoader yielded batch 30
+    Processing batch 30/125 | Moving data done
+    Processing batch 30/125 | Augmentation done
+    Processing batch 30/125 | Forward pass done
+    Batch 30/125 done | Loss: 5.1066 | Time: 0.03s
+    DataLoader yielded batch 31
+    DataLoader yielded batch 32
+    DataLoader yielded batch 33
+    DataLoader yielded batch 34
+    DataLoader yielded batch 35
+    DataLoader yielded batch 36
+    DataLoader yielded batch 37
+    DataLoader yielded batch 38
+    DataLoader yielded batch 39
+    DataLoader yielded batch 40
+    Processing batch 40/125 | Moving data done
+    Processing batch 40/125 | Augmentation done
+    Processing batch 40/125 | Forward pass done
+    Batch 40/125 done | Loss: 5.1472 | Time: 0.03s
+    DataLoader yielded batch 41
+    DataLoader yielded batch 42
+    DataLoader yielded batch 43
+    DataLoader yielded batch 44
+    DataLoader yielded batch 45
+    DataLoader yielded batch 46
+    DataLoader yielded batch 47
+    DataLoader yielded batch 48
+    DataLoader yielded batch 49
+    DataLoader yielded batch 50
+    Processing batch 50/125 | Moving data done
+    Processing batch 50/125 | Augmentation done
+    Processing batch 50/125 | Forward pass done
+    Batch 50/125 done | Loss: 5.1477 | Time: 0.02s
+    DataLoader yielded batch 51
+    DataLoader yielded batch 52
+    DataLoader yielded batch 53
+    DataLoader yielded batch 54
+    DataLoader yielded batch 55
+    DataLoader yielded batch 56
+    DataLoader yielded batch 57
+    DataLoader yielded batch 58
+    DataLoader yielded batch 59
+    DataLoader yielded batch 60
+    Processing batch 60/125 | Moving data done
+    Processing batch 60/125 | Augmentation done
+    Processing batch 60/125 | Forward pass done
+    Batch 60/125 done | Loss: 5.0978 | Time: 0.02s
+    DataLoader yielded batch 61
+    DataLoader yielded batch 62
+    DataLoader yielded batch 63
+    DataLoader yielded batch 64
+    DataLoader yielded batch 65
+    DataLoader yielded batch 66
+    DataLoader yielded batch 67
+    DataLoader yielded batch 68
+    DataLoader yielded batch 69
+    DataLoader yielded batch 70
+    Processing batch 70/125 | Moving data done
+    Processing batch 70/125 | Augmentation done
+    Processing batch 70/125 | Forward pass done
+    Batch 70/125 done | Loss: 5.1095 | Time: 0.03s
+    DataLoader yielded batch 71
+    DataLoader yielded batch 72
+    DataLoader yielded batch 73
+    DataLoader yielded batch 74
+    DataLoader yielded batch 75
+    DataLoader yielded batch 76
+    DataLoader yielded batch 77
+    DataLoader yielded batch 78
+    DataLoader yielded batch 79
+    DataLoader yielded batch 80
+    Processing batch 80/125 | Moving data done
+    Processing batch 80/125 | Augmentation done
+    Processing batch 80/125 | Forward pass done
+    Batch 80/125 done | Loss: 5.1200 | Time: 0.03s
+    DataLoader yielded batch 81
+    DataLoader yielded batch 82
+    DataLoader yielded batch 83
+    DataLoader yielded batch 84
+    DataLoader yielded batch 85
+    DataLoader yielded batch 86
+    DataLoader yielded batch 87
+    DataLoader yielded batch 88
+    DataLoader yielded batch 89
+    DataLoader yielded batch 90
+    Processing batch 90/125 | Moving data done
+    Processing batch 90/125 | Augmentation done
+    Processing batch 90/125 | Forward pass done
+    Batch 90/125 done | Loss: 5.0707 | Time: 0.03s
+    DataLoader yielded batch 91
+    DataLoader yielded batch 92
+    DataLoader yielded batch 93
+    DataLoader yielded batch 94
+    DataLoader yielded batch 95
+    DataLoader yielded batch 96
+    DataLoader yielded batch 97
+    DataLoader yielded batch 98
+    DataLoader yielded batch 99
+    DataLoader yielded batch 100
+    Processing batch 100/125 | Moving data done
+    Processing batch 100/125 | Augmentation done
+    Processing batch 100/125 | Forward pass done
+    Batch 100/125 done | Loss: 5.1088 | Time: 0.03s
+    DataLoader yielded batch 101
+    DataLoader yielded batch 102
+    DataLoader yielded batch 103
+    DataLoader yielded batch 104
+    DataLoader yielded batch 105
+    DataLoader yielded batch 106
+    DataLoader yielded batch 107
+    DataLoader yielded batch 108
+    DataLoader yielded batch 109
+    DataLoader yielded batch 110
+    Processing batch 110/125 | Moving data done
+    Processing batch 110/125 | Augmentation done
+    Processing batch 110/125 | Forward pass done
+    Batch 110/125 done | Loss: 5.1060 | Time: 0.02s
+    DataLoader yielded batch 111
+    DataLoader yielded batch 112
+    DataLoader yielded batch 113
+    DataLoader yielded batch 114
+    DataLoader yielded batch 115
+    DataLoader yielded batch 116
+    DataLoader yielded batch 117
+    DataLoader yielded batch 118
+    DataLoader yielded batch 119
+    DataLoader yielded batch 120
+    Processing batch 120/125 | Moving data done
+    Processing batch 120/125 | Augmentation done
+    Processing batch 120/125 | Forward pass done
+    Batch 120/125 done | Loss: 4.9685 | Time: 0.02s
+    DataLoader yielded batch 121
+    DataLoader yielded batch 122
+    DataLoader yielded batch 123
+    DataLoader yielded batch 124
+→ epoch() finished | Mode: train | Avg Loss: 5.0908 | Acc: 65.95%
+→ epoch() started in train mode, 125 batches
+    DataLoader yielded batch 0
+    Processing batch 0/125 | Moving data done
+    Processing batch 0/125 | Augmentation done
+    Processing batch 0/125 | Forward pass done
+    Batch 0/125 done | Loss: 4.9574 | Time: 0.03s
+    DataLoader yielded batch 1
+    DataLoader yielded batch 2
+    DataLoader yielded batch 3
+    DataLoader yielded batch 4
+    DataLoader yielded batch 5
+    DataLoader yielded batch 6
+    DataLoader yielded batch 7
+    DataLoader yielded batch 8
+    DataLoader yielded batch 9
+    DataLoader yielded batch 10
+    Processing batch 10/125 | Moving data done
+    Processing batch 10/125 | Augmentation done
+    Processing batch 10/125 | Forward pass done
+    Batch 10/125 done | Loss: 5.1088 | Time: 0.02s
+    DataLoader yielded batch 11
+    DataLoader yielded batch 12
+    DataLoader yielded batch 13
+    DataLoader yielded batch 14
+    DataLoader yielded batch 15
+    DataLoader yielded batch 16
+    DataLoader yielded batch 17
+    DataLoader yielded batch 18
+    DataLoader yielded batch 19
+    DataLoader yielded batch 20
+    Processing batch 20/125 | Moving data done
+    Processing batch 20/125 | Augmentation done
+    Processing batch 20/125 | Forward pass done
+    Batch 20/125 done | Loss: 5.1315 | Time: 0.03s
+    DataLoader yielded batch 21
+    DataLoader yielded batch 22
+    DataLoader yielded batch 23
+    DataLoader yielded batch 24
+    DataLoader yielded batch 25
+    DataLoader yielded batch 26
+    DataLoader yielded batch 27
+    DataLoader yielded batch 28
+    DataLoader yielded batch 29
+    DataLoader yielded batch 30
+    Processing batch 30/125 | Moving data done
+    Processing batch 30/125 | Augmentation done
+    Processing batch 30/125 | Forward pass done
+    Batch 30/125 done | Loss: 5.1064 | Time: 0.02s
+    DataLoader yielded batch 31
+    DataLoader yielded batch 32
+    DataLoader yielded batch 33
+    DataLoader yielded batch 34
+    DataLoader yielded batch 35
+    DataLoader yielded batch 36
+    DataLoader yielded batch 37
+    DataLoader yielded batch 38
+    DataLoader yielded batch 39
+    DataLoader yielded batch 40
+    Processing batch 40/125 | Moving data done
+    Processing batch 40/125 | Augmentation done
+    Processing batch 40/125 | Forward pass done
+    Batch 40/125 done | Loss: 5.1471 | Time: 0.02s
+    DataLoader yielded batch 41
+    DataLoader yielded batch 42
+    DataLoader yielded batch 43
+    DataLoader yielded batch 44
+    DataLoader yielded batch 45
+    DataLoader yielded batch 46
+    DataLoader yielded batch 47
+    DataLoader yielded batch 48
+    DataLoader yielded batch 49
+    DataLoader yielded batch 50
+    Processing batch 50/125 | Moving data done
+    Processing batch 50/125 | Augmentation done
+    Processing batch 50/125 | Forward pass done
+    Batch 50/125 done | Loss: 5.1476 | Time: 0.02s
+    DataLoader yielded batch 51
+    DataLoader yielded batch 52
+    DataLoader yielded batch 53
+    DataLoader yielded batch 54
+    DataLoader yielded batch 55
+    DataLoader yielded batch 56
+    DataLoader yielded batch 57
+    DataLoader yielded batch 58
+    DataLoader yielded batch 59
+    DataLoader yielded batch 60
+    Processing batch 60/125 | Moving data done
+    Processing batch 60/125 | Augmentation done
+    Processing batch 60/125 | Forward pass done
+    Batch 60/125 done | Loss: 5.0977 | Time: 0.03s
+    DataLoader yielded batch 61
+    DataLoader yielded batch 62
+    DataLoader yielded batch 63
+    DataLoader yielded batch 64
+    DataLoader yielded batch 65
+    DataLoader yielded batch 66
+    DataLoader yielded batch 67
+    DataLoader yielded batch 68
+    DataLoader yielded batch 69
+    DataLoader yielded batch 70
+    Processing batch 70/125 | Moving data done
+    Processing batch 70/125 | Augmentation done
+    Processing batch 70/125 | Forward pass done
+    Batch 70/125 done | Loss: 5.1093 | Time: 0.03s
+    DataLoader yielded batch 71
+    DataLoader yielded batch 72
+    DataLoader yielded batch 73
+    DataLoader yielded batch 74
+    DataLoader yielded batch 75
+    DataLoader yielded batch 76
+    DataLoader yielded batch 77
+    DataLoader yielded batch 78
+    DataLoader yielded batch 79
+    DataLoader yielded batch 80
+    Processing batch 80/125 | Moving data done
+    Processing batch 80/125 | Augmentation done
+    Processing batch 80/125 | Forward pass done
+    Batch 80/125 done | Loss: 5.1199 | Time: 0.03s
+    DataLoader yielded batch 81
+    DataLoader yielded batch 82
+    DataLoader yielded batch 83
+    DataLoader yielded batch 84
+    DataLoader yielded batch 85
+    DataLoader yielded batch 86
+    DataLoader yielded batch 87
+    DataLoader yielded batch 88
+    DataLoader yielded batch 89
+    DataLoader yielded batch 90
+    Processing batch 90/125 | Moving data done
+    Processing batch 90/125 | Augmentation done
+    Processing batch 90/125 | Forward pass done
+    Batch 90/125 done | Loss: 5.0706 | Time: 0.03s
+    DataLoader yielded batch 91
+    DataLoader yielded batch 92
+    DataLoader yielded batch 93
+    DataLoader yielded batch 94
+    DataLoader yielded batch 95
+    DataLoader yielded batch 96
+    DataLoader yielded batch 97
+    DataLoader yielded batch 98
+    DataLoader yielded batch 99
+    DataLoader yielded batch 100
+    Processing batch 100/125 | Moving data done
+    Processing batch 100/125 | Augmentation done
+    Processing batch 100/125 | Forward pass done
+    Batch 100/125 done | Loss: 5.1087 | Time: 0.03s
+    DataLoader yielded batch 101
+    DataLoader yielded batch 102
+    DataLoader yielded batch 103
+    DataLoader yielded batch 104
+    DataLoader yielded batch 105
+    DataLoader yielded batch 106
+    DataLoader yielded batch 107
+    DataLoader yielded batch 108
+    DataLoader yielded batch 109
+    DataLoader yielded batch 110
+    Processing batch 110/125 | Moving data done
+    Processing batch 110/125 | Augmentation done
+    Processing batch 110/125 | Forward pass done
+    Batch 110/125 done | Loss: 5.1060 | Time: 0.03s
+    DataLoader yielded batch 111
+    DataLoader yielded batch 112
+    DataLoader yielded batch 113
+    DataLoader yielded batch 114
+    DataLoader yielded batch 115
+    DataLoader yielded batch 116
+    DataLoader yielded batch 117
+    DataLoader yielded batch 118
+    DataLoader yielded batch 119
+    DataLoader yielded batch 120
+    Processing batch 120/125 | Moving data done
+    Processing batch 120/125 | Augmentation done
+    Processing batch 120/125 | Forward pass done
+    Batch 120/125 done | Loss: 4.9684 | Time: 0.02s
+    DataLoader yielded batch 121
+    DataLoader yielded batch 122
+    DataLoader yielded batch 123
+    DataLoader yielded batch 124
+→ epoch() finished | Mode: train | Avg Loss: 5.0906 | Acc: 66.00%
+→ epoch() started in train mode, 125 batches
+    DataLoader yielded batch 0
+    Processing batch 0/125 | Moving data done
+    Processing batch 0/125 | Augmentation done
+    Processing batch 0/125 | Forward pass done
+    Batch 0/125 done | Loss: 4.9573 | Time: 0.02s
+    DataLoader yielded batch 1
+    DataLoader yielded batch 2
+    DataLoader yielded batch 3
+    DataLoader yielded batch 4
+    DataLoader yielded batch 5
+    DataLoader yielded batch 6
+    DataLoader yielded batch 7
+    DataLoader yielded batch 8
+    DataLoader yielded batch 9
+    DataLoader yielded batch 10
+    Processing batch 10/125 | Moving data done
+    Processing batch 10/125 | Augmentation done
+    Processing batch 10/125 | Forward pass done
+    Batch 10/125 done | Loss: 5.1087 | Time: 0.03s
+    DataLoader yielded batch 11
+    DataLoader yielded batch 12
+    DataLoader yielded batch 13
+    DataLoader yielded batch 14
+    DataLoader yielded batch 15
+    DataLoader yielded batch 16
+    DataLoader yielded batch 17
+    DataLoader yielded batch 18
+    DataLoader yielded batch 19
+    DataLoader yielded batch 20
+    Processing batch 20/125 | Moving data done
+    Processing batch 20/125 | Augmentation done
+    Processing batch 20/125 | Forward pass done
+    Batch 20/125 done | Loss: 5.1314 | Time: 0.03s
+    DataLoader yielded batch 21
+    DataLoader yielded batch 22
+    DataLoader yielded batch 23
+    DataLoader yielded batch 24
+    DataLoader yielded batch 25
+    DataLoader yielded batch 26
+    DataLoader yielded batch 27
+    DataLoader yielded batch 28
+    DataLoader yielded batch 29
+    DataLoader yielded batch 30
+    Processing batch 30/125 | Moving data done
+    Processing batch 30/125 | Augmentation done
+    Processing batch 30/125 | Forward pass done
+    Batch 30/125 done | Loss: 5.1063 | Time: 0.03s
+    DataLoader yielded batch 31
+    DataLoader yielded batch 32
+    DataLoader yielded batch 33
+    DataLoader yielded batch 34
+    DataLoader yielded batch 35
+    DataLoader yielded batch 36
+    DataLoader yielded batch 37
+    DataLoader yielded batch 38
+    DataLoader yielded batch 39
+    DataLoader yielded batch 40
+    Processing batch 40/125 | Moving data done
+    Processing batch 40/125 | Augmentation done
+    Processing batch 40/125 | Forward pass done
+    Batch 40/125 done | Loss: 5.1469 | Time: 0.03s
+    DataLoader yielded batch 41
+    DataLoader yielded batch 42
+    DataLoader yielded batch 43
+    DataLoader yielded batch 44
+    DataLoader yielded batch 45
+    DataLoader yielded batch 46
+    DataLoader yielded batch 47
+    DataLoader yielded batch 48
+    DataLoader yielded batch 49
+    DataLoader yielded batch 50
+    Processing batch 50/125 | Moving data done
+    Processing batch 50/125 | Augmentation done
+    Processing batch 50/125 | Forward pass done
+    Batch 50/125 done | Loss: 5.1475 | Time: 0.03s
+    DataLoader yielded batch 51
+    DataLoader yielded batch 52
+    DataLoader yielded batch 53
+    DataLoader yielded batch 54
+    DataLoader yielded batch 55
+    DataLoader yielded batch 56
+    DataLoader yielded batch 57
+    DataLoader yielded batch 58
+    DataLoader yielded batch 59
+    DataLoader yielded batch 60
+    Processing batch 60/125 | Moving data done
+    Processing batch 60/125 | Augmentation done
+    Processing batch 60/125 | Forward pass done
+    Batch 60/125 done | Loss: 5.0976 | Time: 0.03s
+    DataLoader yielded batch 61
+    DataLoader yielded batch 62
+    DataLoader yielded batch 63
+    DataLoader yielded batch 64
+    DataLoader yielded batch 65
+    DataLoader yielded batch 66
+    DataLoader yielded batch 67
+    DataLoader yielded batch 68
+    DataLoader yielded batch 69
+    DataLoader yielded batch 70
+    Processing batch 70/125 | Moving data done
+    Processing batch 70/125 | Augmentation done
+    Processing batch 70/125 | Forward pass done
+    Batch 70/125 done | Loss: 5.1092 | Time: 0.03s
+    DataLoader yielded batch 71
+    DataLoader yielded batch 72
+    DataLoader yielded batch 73
+    DataLoader yielded batch 74
+    DataLoader yielded batch 75
+    DataLoader yielded batch 76
+    DataLoader yielded batch 77
+    DataLoader yielded batch 78
+    DataLoader yielded batch 79
+    DataLoader yielded batch 80
+    Processing batch 80/125 | Moving data done
+    Processing batch 80/125 | Augmentation done
+    Processing batch 80/125 | Forward pass done
+    Batch 80/125 done | Loss: 5.1198 | Time: 0.02s
+    DataLoader yielded batch 81
+    DataLoader yielded batch 82
+    DataLoader yielded batch 83
+    DataLoader yielded batch 84
+    DataLoader yielded batch 85
+    DataLoader yielded batch 86
+    DataLoader yielded batch 87
+    DataLoader yielded batch 88
+    DataLoader yielded batch 89
+    DataLoader yielded batch 90
+    Processing batch 90/125 | Moving data done
+    Processing batch 90/125 | Augmentation done
+    Processing batch 90/125 | Forward pass done
+    Batch 90/125 done | Loss: 5.0705 | Time: 0.03s
+    DataLoader yielded batch 91
+    DataLoader yielded batch 92
+    DataLoader yielded batch 93
+    DataLoader yielded batch 94
+    DataLoader yielded batch 95
+    DataLoader yielded batch 96
+    DataLoader yielded batch 97
+    DataLoader yielded batch 98
+    DataLoader yielded batch 99
+    DataLoader yielded batch 100
+    Processing batch 100/125 | Moving data done
+    Processing batch 100/125 | Augmentation done
+    Processing batch 100/125 | Forward pass done
+    Batch 100/125 done | Loss: 5.1087 | Time: 0.02s
+    DataLoader yielded batch 101
+    DataLoader yielded batch 102
+    DataLoader yielded batch 103
+    DataLoader yielded batch 104
+    DataLoader yielded batch 105
+    DataLoader yielded batch 106
+    DataLoader yielded batch 107
+    DataLoader yielded batch 108
+    DataLoader yielded batch 109
+    DataLoader yielded batch 110
+    Processing batch 110/125 | Moving data done
+    Processing batch 110/125 | Augmentation done
+    Processing batch 110/125 | Forward pass done
+    Batch 110/125 done | Loss: 5.1059 | Time: 0.02s
+    DataLoader yielded batch 111
+    DataLoader yielded batch 112
+    DataLoader yielded batch 113
+    DataLoader yielded batch 114
+    DataLoader yielded batch 115
+    DataLoader yielded batch 116
+    DataLoader yielded batch 117
+    DataLoader yielded batch 118
+    DataLoader yielded batch 119
+    DataLoader yielded batch 120
+    Processing batch 120/125 | Moving data done
+    Processing batch 120/125 | Augmentation done
+    Processing batch 120/125 | Forward pass done
+    Batch 120/125 done | Loss: 4.9682 | Time: 0.02s
+    DataLoader yielded batch 121
+    DataLoader yielded batch 122
+    DataLoader yielded batch 123
+    DataLoader yielded batch 124
+→ epoch() finished | Mode: train | Avg Loss: 5.0905 | Acc: 66.45%
+→ epoch() started in train mode, 125 batches
+    DataLoader yielded batch 0
+    Processing batch 0/125 | Moving data done
+    Processing batch 0/125 | Augmentation done
+    Processing batch 0/125 | Forward pass done
+    Batch 0/125 done | Loss: 4.9572 | Time: 0.03s
+    DataLoader yielded batch 1
+    DataLoader yielded batch 2
+    DataLoader yielded batch 3
+    DataLoader yielded batch 4
+    DataLoader yielded batch 5
+    DataLoader yielded batch 6
+    DataLoader yielded batch 7
+    DataLoader yielded batch 8
+    DataLoader yielded batch 9
+    DataLoader yielded batch 10
+    Processing batch 10/125 | Moving data done
+    Processing batch 10/125 | Augmentation done
+    Processing batch 10/125 | Forward pass done
+    Batch 10/125 done | Loss: 5.1086 | Time: 0.03s
+    DataLoader yielded batch 11
+    DataLoader yielded batch 12
+    DataLoader yielded batch 13
+    DataLoader yielded batch 14
+    DataLoader yielded batch 15
+    DataLoader yielded batch 16
+    DataLoader yielded batch 17
+    DataLoader yielded batch 18
+    DataLoader yielded batch 19
+    DataLoader yielded batch 20
+    Processing batch 20/125 | Moving data done
+    Processing batch 20/125 | Augmentation done
+    Processing batch 20/125 | Forward pass done
+    Batch 20/125 done | Loss: 5.1314 | Time: 0.03s
+    DataLoader yielded batch 21
+    DataLoader yielded batch 22
+    DataLoader yielded batch 23
+    DataLoader yielded batch 24
+    DataLoader yielded batch 25
+    DataLoader yielded batch 26
+    DataLoader yielded batch 27
+    DataLoader yielded batch 28
+    DataLoader yielded batch 29
+    DataLoader yielded batch 30
+    Processing batch 30/125 | Moving data done
+    Processing batch 30/125 | Augmentation done
+    Processing batch 30/125 | Forward pass done
+    Batch 30/125 done | Loss: 5.1062 | Time: 0.03s
+    DataLoader yielded batch 31
+    DataLoader yielded batch 32
+    DataLoader yielded batch 33
+    DataLoader yielded batch 34
+    DataLoader yielded batch 35
+    DataLoader yielded batch 36
+    DataLoader yielded batch 37
+    DataLoader yielded batch 38
+    DataLoader yielded batch 39
+    DataLoader yielded batch 40
+    Processing batch 40/125 | Moving data done
+    Processing batch 40/125 | Augmentation done
+    Processing batch 40/125 | Forward pass done
+    Batch 40/125 done | Loss: 5.1469 | Time: 0.02s
+    DataLoader yielded batch 41
+    DataLoader yielded batch 42
+    DataLoader yielded batch 43
+    DataLoader yielded batch 44
+    DataLoader yielded batch 45
+    DataLoader yielded batch 46
+    DataLoader yielded batch 47
+    DataLoader yielded batch 48
+    DataLoader yielded batch 49
+    DataLoader yielded batch 50
+    Processing batch 50/125 | Moving data done
+    Processing batch 50/125 | Augmentation done
+    Processing batch 50/125 | Forward pass done
+    Batch 50/125 done | Loss: 5.1475 | Time: 0.02s
+    DataLoader yielded batch 51
+    DataLoader yielded batch 52
+    DataLoader yielded batch 53
+    DataLoader yielded batch 54
+    DataLoader yielded batch 55
+    DataLoader yielded batch 56
+    DataLoader yielded batch 57
+    DataLoader yielded batch 58
+    DataLoader yielded batch 59
+    DataLoader yielded batch 60
+    Processing batch 60/125 | Moving data done
+    Processing batch 60/125 | Augmentation done
+    Processing batch 60/125 | Forward pass done
+    Batch 60/125 done | Loss: 5.0975 | Time: 0.02s
+    DataLoader yielded batch 61
+    DataLoader yielded batch 62
+    DataLoader yielded batch 63
+    DataLoader yielded batch 64
+    DataLoader yielded batch 65
+    DataLoader yielded batch 66
+    DataLoader yielded batch 67
+    DataLoader yielded batch 68
+    DataLoader yielded batch 69
+    DataLoader yielded batch 70
+    Processing batch 70/125 | Moving data done
+    Processing batch 70/125 | Augmentation done
+    Processing batch 70/125 | Forward pass done
+    Batch 70/125 done | Loss: 5.1092 | Time: 0.03s
+    DataLoader yielded batch 71
+    DataLoader yielded batch 72
+    DataLoader yielded batch 73
+    DataLoader yielded batch 74
+    DataLoader yielded batch 75
+    DataLoader yielded batch 76
+    DataLoader yielded batch 77
+    DataLoader yielded batch 78
+    DataLoader yielded batch 79
+    DataLoader yielded batch 80
+    Processing batch 80/125 | Moving data done
+    Processing batch 80/125 | Augmentation done
+    Processing batch 80/125 | Forward pass done
+    Batch 80/125 done | Loss: 5.1198 | Time: 0.02s
+    DataLoader yielded batch 81
+    DataLoader yielded batch 82
+    DataLoader yielded batch 83
+    DataLoader yielded batch 84
+    DataLoader yielded batch 85
+    DataLoader yielded batch 86
+    DataLoader yielded batch 87
+    DataLoader yielded batch 88
+    DataLoader yielded batch 89
+    DataLoader yielded batch 90
+    Processing batch 90/125 | Moving data done
+    Processing batch 90/125 | Augmentation done
+    Processing batch 90/125 | Forward pass done
+    Batch 90/125 done | Loss: 5.0705 | Time: 0.02s
+    DataLoader yielded batch 91
+    DataLoader yielded batch 92
+    DataLoader yielded batch 93
+    DataLoader yielded batch 94
+    DataLoader yielded batch 95
+    DataLoader yielded batch 96
+    DataLoader yielded batch 97
+    DataLoader yielded batch 98
+    DataLoader yielded batch 99
+    DataLoader yielded batch 100
+    Processing batch 100/125 | Moving data done
+    Processing batch 100/125 | Augmentation done
+    Processing batch 100/125 | Forward pass done
+    Batch 100/125 done | Loss: 5.1086 | Time: 0.02s
+    DataLoader yielded batch 101
+    DataLoader yielded batch 102
+    DataLoader yielded batch 103
+    DataLoader yielded batch 104
+    DataLoader yielded batch 105
+    DataLoader yielded batch 106
+    DataLoader yielded batch 107
+    DataLoader yielded batch 108
+    DataLoader yielded batch 109
+    DataLoader yielded batch 110
+    Processing batch 110/125 | Moving data done
+    Processing batch 110/125 | Augmentation done
+    Processing batch 110/125 | Forward pass done
+    Batch 110/125 done | Loss: 5.1058 | Time: 0.03s
+    DataLoader yielded batch 111
+    DataLoader yielded batch 112
+    DataLoader yielded batch 113
+    DataLoader yielded batch 114
+    DataLoader yielded batch 115
+    DataLoader yielded batch 116
+    DataLoader yielded batch 117
+    DataLoader yielded batch 118
+    DataLoader yielded batch 119
+    DataLoader yielded batch 120
+    Processing batch 120/125 | Moving data done
+    Processing batch 120/125 | Augmentation done
+    Processing batch 120/125 | Forward pass done
+    Batch 120/125 done | Loss: 4.9682 | Time: 0.03s
+    DataLoader yielded batch 121
+    DataLoader yielded batch 122
+    DataLoader yielded batch 123
+    DataLoader yielded batch 124
+→ epoch() finished | Mode: train | Avg Loss: 5.0905 | Acc: 66.45%
+→ epoch() started in train mode, 125 batches
+    DataLoader yielded batch 0
+    Processing batch 0/125 | Moving data done
+    Processing batch 0/125 | Augmentation done
+    Processing batch 0/125 | Forward pass done
+    Batch 0/125 done | Loss: 4.9572 | Time: 0.03s
+    DataLoader yielded batch 1
+    DataLoader yielded batch 2
+    DataLoader yielded batch 3
+    DataLoader yielded batch 4
+    DataLoader yielded batch 5
+    DataLoader yielded batch 6
+    DataLoader yielded batch 7
+    DataLoader yielded batch 8
+    DataLoader yielded batch 9
+    DataLoader yielded batch 10
+    Processing batch 10/125 | Moving data done
+    Processing batch 10/125 | Augmentation done
+    Processing batch 10/125 | Forward pass done
+    Batch 10/125 done | Loss: 5.1086 | Time: 0.03s
+    DataLoader yielded batch 11
+    DataLoader yielded batch 12
+    DataLoader yielded batch 13
+    DataLoader yielded batch 14
+    DataLoader yielded batch 15
+    DataLoader yielded batch 16
+    DataLoader yielded batch 17
+    DataLoader yielded batch 18
+    DataLoader yielded batch 19
+    DataLoader yielded batch 20
+    Processing batch 20/125 | Moving data done
+    Processing batch 20/125 | Augmentation done
+    Processing batch 20/125 | Forward pass done
+    Batch 20/125 done | Loss: 5.1313 | Time: 0.02s
+    DataLoader yielded batch 21
+    DataLoader yielded batch 22
+    DataLoader yielded batch 23
+    DataLoader yielded batch 24
+    DataLoader yielded batch 25
+    DataLoader yielded batch 26
+    DataLoader yielded batch 27
+    DataLoader yielded batch 28
+    DataLoader yielded batch 29
+    DataLoader yielded batch 30
+    Processing batch 30/125 | Moving data done
+    Processing batch 30/125 | Augmentation done
+    Processing batch 30/125 | Forward pass done
+    Batch 30/125 done | Loss: 5.1062 | Time: 0.02s
+    DataLoader yielded batch 31
+    DataLoader yielded batch 32
+    DataLoader yielded batch 33
+    DataLoader yielded batch 34
+    DataLoader yielded batch 35
+    DataLoader yielded batch 36
+    DataLoader yielded batch 37
+    DataLoader yielded batch 38
+    DataLoader yielded batch 39
+    DataLoader yielded batch 40
+    Processing batch 40/125 | Moving data done
+    Processing batch 40/125 | Augmentation done
+    Processing batch 40/125 | Forward pass done
+    Batch 40/125 done | Loss: 5.1469 | Time: 0.03s
+    DataLoader yielded batch 41
+    DataLoader yielded batch 42
+    DataLoader yielded batch 43
+    DataLoader yielded batch 44
+    DataLoader yielded batch 45
+    DataLoader yielded batch 46
+    DataLoader yielded batch 47
+    DataLoader yielded batch 48
+    DataLoader yielded batch 49
+    DataLoader yielded batch 50
+    Processing batch 50/125 | Moving data done
+    Processing batch 50/125 | Augmentation done
+    Processing batch 50/125 | Forward pass done
+    Batch 50/125 done | Loss: 5.1474 | Time: 0.02s
+    DataLoader yielded batch 51
+    DataLoader yielded batch 52
+    DataLoader yielded batch 53
+    DataLoader yielded batch 54
+    DataLoader yielded batch 55
+    DataLoader yielded batch 56
+    DataLoader yielded batch 57
+    DataLoader yielded batch 58
+    DataLoader yielded batch 59
+    DataLoader yielded batch 60
+    Processing batch 60/125 | Moving data done
+    Processing batch 60/125 | Augmentation done
+    Processing batch 60/125 | Forward pass done
+    Batch 60/125 done | Loss: 5.0975 | Time: 0.02s
+    DataLoader yielded batch 61
+    DataLoader yielded batch 62
+    DataLoader yielded batch 63
+    DataLoader yielded batch 64
+    DataLoader yielded batch 65
+    DataLoader yielded batch 66
+    DataLoader yielded batch 67
+    DataLoader yielded batch 68
+    DataLoader yielded batch 69
+    DataLoader yielded batch 70
+    Processing batch 70/125 | Moving data done
+    Processing batch 70/125 | Augmentation done
+    Processing batch 70/125 | Forward pass done
+    Batch 70/125 done | Loss: 5.1092 | Time: 0.02s
+    DataLoader yielded batch 71
+    DataLoader yielded batch 72
+    DataLoader yielded batch 73
+    DataLoader yielded batch 74
+    DataLoader yielded batch 75
+    DataLoader yielded batch 76
+    DataLoader yielded batch 77
+    DataLoader yielded batch 78
+    DataLoader yielded batch 79
+    DataLoader yielded batch 80
+    Processing batch 80/125 | Moving data done
+    Processing batch 80/125 | Augmentation done
+    Processing batch 80/125 | Forward pass done
+    Batch 80/125 done | Loss: 5.1198 | Time: 0.02s
+    DataLoader yielded batch 81
+    DataLoader yielded batch 82
+    DataLoader yielded batch 83
+    DataLoader yielded batch 84
+    DataLoader yielded batch 85
+    DataLoader yielded batch 86
+    DataLoader yielded batch 87
+    DataLoader yielded batch 88
+    DataLoader yielded batch 89
+    DataLoader yielded batch 90
+    Processing batch 90/125 | Moving data done
+    Processing batch 90/125 | Augmentation done
+    Processing batch 90/125 | Forward pass done
+    Batch 90/125 done | Loss: 5.0704 | Time: 0.03s
+    DataLoader yielded batch 91
+    DataLoader yielded batch 92
+    DataLoader yielded batch 93
+    DataLoader yielded batch 94
+    DataLoader yielded batch 95
+    DataLoader yielded batch 96
+    DataLoader yielded batch 97
+    DataLoader yielded batch 98
+    DataLoader yielded batch 99
+    DataLoader yielded batch 100
+    Processing batch 100/125 | Moving data done
+    Processing batch 100/125 | Augmentation done
+    Processing batch 100/125 | Forward pass done
+    Batch 100/125 done | Loss: 5.1086 | Time: 0.02s
+    DataLoader yielded batch 101
+    DataLoader yielded batch 102
+    DataLoader yielded batch 103
+    DataLoader yielded batch 104
+    DataLoader yielded batch 105
+    DataLoader yielded batch 106
+    DataLoader yielded batch 107
+    DataLoader yielded batch 108
+    DataLoader yielded batch 109
+    DataLoader yielded batch 110
+    Processing batch 110/125 | Moving data done
+    Processing batch 110/125 | Augmentation done
+    Processing batch 110/125 | Forward pass done
+    Batch 110/125 done | Loss: 5.1058 | Time: 0.03s
+    DataLoader yielded batch 111
+    DataLoader yielded batch 112
+    DataLoader yielded batch 113
+    DataLoader yielded batch 114
+    DataLoader yielded batch 115
+    DataLoader yielded batch 116
+    DataLoader yielded batch 117
+    DataLoader yielded batch 118
+    DataLoader yielded batch 119
+    DataLoader yielded batch 120
+    Processing batch 120/125 | Moving data done
+    Processing batch 120/125 | Augmentation done
+    Processing batch 120/125 | Forward pass done
+    Batch 120/125 done | Loss: 4.9681 | Time: 0.03s
+    DataLoader yielded batch 121
+    DataLoader yielded batch 122
+    DataLoader yielded batch 123
+    DataLoader yielded batch 124
+→ epoch() finished | Mode: train | Avg Loss: 5.0904 | Acc: 66.50%
+    [Run 0] Epoch 10/10 | Loss: 5.0904 | Acc: 66.50% | Time: 2.79s
+→ epoch() started in test mode, 79 batches
+    DataLoader yielded batch 0
+    Processing batch 0/79 | Moving data done
+    Processing batch 0/79 | Augmentation done
+    Processing batch 0/79 | Forward pass done
+    Batch 0/79 done | Loss: 4.6546 | Time: 2.79s
+    DataLoader yielded batch 1
+    DataLoader yielded batch 2
+    DataLoader yielded batch 3
+    DataLoader yielded batch 4
+    DataLoader yielded batch 5
+    DataLoader yielded batch 6
+    DataLoader yielded batch 7
+    DataLoader yielded batch 8
+    DataLoader yielded batch 9
+    DataLoader yielded batch 10
+    Processing batch 10/79 | Moving data done
+    Processing batch 10/79 | Augmentation done
+    Processing batch 10/79 | Forward pass done
+    Batch 10/79 done | Loss: 5.3467 | Time: 0.05s
+    DataLoader yielded batch 11
+    DataLoader yielded batch 12
+    DataLoader yielded batch 13
+    DataLoader yielded batch 14
+    DataLoader yielded batch 15
+    DataLoader yielded batch 16
+    DataLoader yielded batch 17
+    DataLoader yielded batch 18
+    DataLoader yielded batch 19
+    DataLoader yielded batch 20
+    Processing batch 20/79 | Moving data done
+    Processing batch 20/79 | Augmentation done
+    Processing batch 20/79 | Forward pass done
+    Batch 20/79 done | Loss: 5.0042 | Time: 0.05s
+    DataLoader yielded batch 21
+    DataLoader yielded batch 22
+    DataLoader yielded batch 23
+    DataLoader yielded batch 24
+    DataLoader yielded batch 25
+    DataLoader yielded batch 26
+    DataLoader yielded batch 27
+    DataLoader yielded batch 28
+    DataLoader yielded batch 29
+    DataLoader yielded batch 30
+    Processing batch 30/79 | Moving data done
+    Processing batch 30/79 | Augmentation done
+    Processing batch 30/79 | Forward pass done
+    Batch 30/79 done | Loss: 5.0648 | Time: 0.05s
+    DataLoader yielded batch 31
+    DataLoader yielded batch 32
+    DataLoader yielded batch 33
+    DataLoader yielded batch 34
+    DataLoader yielded batch 35
+    DataLoader yielded batch 36
+    DataLoader yielded batch 37
+    DataLoader yielded batch 38
+    DataLoader yielded batch 39
+    DataLoader yielded batch 40
+    Processing batch 40/79 | Moving data done
+    Processing batch 40/79 | Augmentation done
+    Processing batch 40/79 | Forward pass done
+    Batch 40/79 done | Loss: 4.5172 | Time: 0.05s
+    DataLoader yielded batch 41
+    DataLoader yielded batch 42
+    DataLoader yielded batch 43
+    DataLoader yielded batch 44
+    DataLoader yielded batch 45
+    DataLoader yielded batch 46
+    DataLoader yielded batch 47
+    DataLoader yielded batch 48
+    DataLoader yielded batch 49
+    DataLoader yielded batch 50
+    Processing batch 50/79 | Moving data done
+    Processing batch 50/79 | Augmentation done
+    Processing batch 50/79 | Forward pass done
+    Batch 50/79 done | Loss: 5.2397 | Time: 0.05s
+    DataLoader yielded batch 51
+    DataLoader yielded batch 52
+    DataLoader yielded batch 53
+    DataLoader yielded batch 54
+    DataLoader yielded batch 55
+    DataLoader yielded batch 56
+    DataLoader yielded batch 57
+    DataLoader yielded batch 58
+    DataLoader yielded batch 59
+    DataLoader yielded batch 60
+    Processing batch 60/79 | Moving data done
+    Processing batch 60/79 | Augmentation done
+    Processing batch 60/79 | Forward pass done
+    Batch 60/79 done | Loss: 4.8805 | Time: 0.05s
+    DataLoader yielded batch 61
+    DataLoader yielded batch 62
+    DataLoader yielded batch 63
+    DataLoader yielded batch 64
+    DataLoader yielded batch 65
+    DataLoader yielded batch 66
+    DataLoader yielded batch 67
+    DataLoader yielded batch 68
+    DataLoader yielded batch 69
+    DataLoader yielded batch 70
+    Processing batch 70/79 | Moving data done
+    Processing batch 70/79 | Augmentation done
+    Processing batch 70/79 | Forward pass done
+    Batch 70/79 done | Loss: 5.0426 | Time: 0.05s
+    DataLoader yielded batch 71
+    DataLoader yielded batch 72
+    DataLoader yielded batch 73
+    DataLoader yielded batch 74
+    DataLoader yielded batch 75
+    DataLoader yielded batch 76
+    DataLoader yielded batch 77
+    DataLoader yielded batch 78
+→ epoch() finished | Mode: test | Avg Loss: 4.9529 | Acc: 4.42%
+    [Run 0] Eval @ Epoch 10: Test Acc: 4.42%
+✓ Finished Student 0 in 0.79 min. Final Train Acc: 66.50% | Best Test Acc: 4.42%
+[2025-05-12 13:03:23] Completed expert epoch 0 (1/1): test_acc=0.0442
+
+[2025-05-12 13:03:23] Summary of results:
+  Epoch 0: 0.0442
