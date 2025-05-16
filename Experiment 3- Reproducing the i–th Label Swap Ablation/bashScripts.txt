@@ -1,0 +1,66 @@
+Train the Expert (ConvNet on TinyImageNet)
+PYTHONPATH=./no_distillation ./venv/bin/python -m train_expert.buffer \
+  --dataset Tiny \
+  --subset imagenette \
+  --model ConvNet \
+  --num_experts 1 \
+  --train_epochs 20 \
+  --batch_train 32 \
+  --batch_real 32 \
+  --data_path ./tiny-imagenet-200 \
+  --buffer_path ./buffers \
+  --save_interval 1
+
+
+Generate Distilled Soft Labels for Each IPC
+# IPC = 1
+PYTHONPATH=./no_distillation ./venv/bin/python generate_soft_labels.py \
+  --expert_buffer ./buffers/Tiny/ConvNet/replay_buffer_1.pt \
+  --epoch 11 \
+  --ipc 1 \
+  --data_path ./tiny-imagenet-200 \
+  --output ./distilled/Tiny_ConvNet_IPC1.pt \
+  --device cpu
+
+# IPC = 10
+PYTHONPATH=./no_distillation ./venv/bin/python generate_soft_labels.py \
+  --expert_buffer ./buffers/Tiny/ConvNet/replay_buffer_1.pt \
+  --epoch 11 \
+  --ipc 10 \
+  --data_path ./tiny-imagenet-200 \
+  --output ./distilled/Tiny_ConvNet_IPC10.pt \
+  --device cpu
+
+# IPC = 50
+PYTHONPATH=./no_distillation ./venv/bin/python generate_soft_labels.py \
+  --expert_buffer ./buffers/Tiny/ConvNet/replay_buffer_1.pt \
+  --epoch 11 \
+  --ipc 50 \
+  --data_path ./tiny-imagenet-200 \
+  --output ./distilled/Tiny_ConvNet_IPC50.pt \
+  --device cpu
+
+
+Run Label Swap Ablation (IPC = 1, 10, 50)
+# After creating run_swaps_ipcX.py (for X in {1, 10, 50})
+bash run_swaps_ipc1.py
+bash run_swaps_ipc10.py
+bash run_swaps_ipc50.py
+
+Train Student on a Distilled Set 
+PYTHONPATH=./no_distillation ./venv/bin/python train_student.py \
+  --distilled ./distilled/Tiny_ConvNet_IPC1.pt \
+  --model convnetd4 \
+  --batch 64 \
+  --epochs 100 \
+  --lr 1e-3 \
+  --device cpu
+
+
+Evaluate Student Model (Manual Example)
+PYTHONPATH=./no_distillation ./venv/bin/python evaluate_student.py \
+  --student student.pth \
+  --model convnetd4 \
+  --batch 64 \
+  --device cpu
+
